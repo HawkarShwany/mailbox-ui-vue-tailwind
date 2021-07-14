@@ -16,7 +16,7 @@
     />
     <p class="text-sm font-medium ml-4 mr-2 hidden md:flex">Hawkar Shwany</p>
     <svg
-      class="w-4 h-4 text-black ml-auto hidden md:flex text-white"
+      class="w-4 h-4 ml-auto hidden md:flex text-white"
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"

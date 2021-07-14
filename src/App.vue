@@ -4,6 +4,7 @@
     <div class="flex flex-1 bg-gray-200 overflow-hidden">
       <side></side>
       <msg-list></msg-list>
+      <message-section></message-section>
     </div>
   </div>
 </template>
@@ -12,6 +13,7 @@
 import TheHeader from "./components/TheHeader.vue";
 import side from "./components/sidebar.vue";
 import msgList from "./components/messagesList.vue";
+import messageSection from "./components/messageSection.vue";
 
 export default {
   name: "App",
@@ -19,6 +21,7 @@ export default {
     TheHeader,
     side,
     msgList,
+    messageSection,
   },
 };
 </script>
